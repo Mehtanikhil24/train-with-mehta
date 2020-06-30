@@ -1,0 +1,190 @@
+#title {
+  background-color: #abc2e8;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 40px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+p {
+  color: #8f8f8f;
+  padding-top: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* nav bar */
+.navbar-brand {
+  font-family: 'Notable', sans-serif;
+  font-size: 3rem;
+  position: relative;
+  right: 120px;
+}
+
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.nav-item {
+  font-size: 1.25rem;
+}
+
+/* title */
+.mylogo {
+  width: 100%;
+  position: absolute;
+  right: 10%;
+  top: 50px;
+  transform: rotate(25deg);
+}
+
+.download-button {
+  margin: 10px;
+}
+
+.paragraph {
+  text-align: left;
+  color: white;
+  line-height: 0;
+}
+
+.title-head {
+  font-size: 3rem;
+}
+
+/* features */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  line-height: 2;
+}
+
+.fas {
+  margin-bottom: 1rem;
+  color: #abc2e8;
+}
+
+.fas:hover {
+  color: black;
+}
+
+/* testimonilas */
+#testimonials {
+  background-color: #abc2e8;
+  text-align: center;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.dog {
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.lady {
+  width: 100px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  text-align: center;
+  background-color: #abc2e8;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 30%;
+  margin: 20px 20px 50px;
+}
+.aboutme{
+  color: white;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-coloumn {
+  padding: 2% 3%;
+  text-align: center;
+}
+
+/* mobile screen */
+@media (max-width:994px) {
+  #title {
+    text-align: center;
+  }
+
+  .mylogo {
+    position: static;
+    margin-top: 40px;
+    transform: rotate(0);
+  }
+
+  .paragraph {
+    text-align: center;
+  }
+}
+
+/* call to action */
+#cta {
+  background-color: #abc2e8;
+  text-align: center;
+  font-family: 'Montserrat-black';
+  padding: 7% 15%;
+  color: #fff;
+}
+
+.last-paragraph {
+  text-align: center;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+}
+.myself{
+  position: relative;
+  top: 20px;
+}
+
+/* footer */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.tweet {
+  margin: 20px 10px;
+}
